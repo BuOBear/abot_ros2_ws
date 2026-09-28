@@ -1,0 +1,10 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+# ABOT ROS 2 的项目级配置；项目受信任时加载。
+# 模型、推理强度、权限与凭据沿用用户或当前会话设置。
+# 开发约定由仓库根目录 AGENTS.md 自动提供。
+project_doc_max_bytes = 32768
+
+[shell_environment_policy.set]
+# 及时输出 Python 验证日志，限制低内存 WSL 环境中的 CMake 构建并发。
+PYTHONUNBUFFERED = "1"
+CMAKE_BUILD_PARALLEL_LEVEL = "1"
