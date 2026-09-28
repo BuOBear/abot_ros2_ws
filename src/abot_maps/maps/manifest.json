@@ -14,7 +14,7 @@
         "installed_image_sha256": "9567a314e7674944e1442b7d62e8bc68a5190002b7a70d5d2d0f88d1413e89e4",
         "installed_image_source": "/home/manbo_u22/abot_ws/src/robot_slam/maps/1.pgm",
         "installed_yaml": "maps/robot_slam/1.yaml",
-        "installed_yaml_sha256": "7df493257c856fef8a6751f0e6e9ae29287a54107dfa5726e00bc13b77b84581",
+        "installed_yaml_sha256": "ee5a9b4b3cf245369894750abe991a22647f14a78a95672b34f4415e2325340f",
         "interpretation": "source-compatible"
       },
       "source_package": "robot_slam",
@@ -36,7 +36,7 @@
         "installed_image_sha256": "b3a72bfb816935e15615e3f55e2a7323d24953ddb330b805f1ee961bcfefb877",
         "installed_image_source": "/home/manbo_u22/abot_ws/src/robot_slam/maps/shoot.pgm",
         "installed_yaml": "maps/robot_slam/shoot.yaml",
-        "installed_yaml_sha256": "f076cde28d2e7d4f9fceb1b4524db6a163c856044f097f63e7fce9fcd76947a6",
+        "installed_yaml_sha256": "68a215405d8fb42f027176d2de9c09fa871389b15cda63614a6764e4cf5c4dd9",
         "interpretation": "source-compatible"
       },
       "source_package": "robot_slam",
