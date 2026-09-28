@@ -25,4 +25,5 @@ jobs:
           export LIBRARY_PATH="$PWD/.vendor/ydlidar-sdk-install/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
           rosdep update --rosdistro humble
           rosdep install --from-paths src --ignore-src -r -y --rosdistro humble
+
           bash tools/verify.sh
