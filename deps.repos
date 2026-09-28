@@ -1,5 +1,6 @@
 # The official YDLIDAR ROS2 driver has a Humble branch but no Humble binary on
 # this development host. Install the pinned YDLidar-SDK separately first.
+
 repositories:
   ydlidar_ros2_driver:
     type: git
