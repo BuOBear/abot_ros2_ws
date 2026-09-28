@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_maps</name>
+  <version>0.1.0</version>
+  <description>Preserved occupancy-grid maps migrated from the ROS 1 SLAM packages.</description>
+  <maintainer email="maintainer@example.invalid">abot maintainers</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <test_depend>python3</test_depend>
+  <test_depend>python3-yaml</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

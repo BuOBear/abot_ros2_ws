@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_perception</name>
+  <version>0.1.0</version>
+  <description>Image based color, fire-color, tag, template, person and face detections for ABOT ROS 2.</description>
+  <maintainer email="maintainer@example.invalid">abot maintainers</maintainer>
+  <!-- ROS 2 adapter code is Apache-2.0; original template assets retain
+       BSD-3-Clause terms, the 2025 source set has no separate license file,
+       and the bundled face cascade retains its embedded Intel notice. -->
+  <license>Apache-2.0</license>
+  <license>BSD-3-Clause</license>
+  <license>Intel License Agreement for Open Source Computer Vision Library</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

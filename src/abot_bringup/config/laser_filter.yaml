@@ -1,0 +1,15 @@
+# Provisional body box from old footprint; measure all attached equipment before deployment.
+scan_to_scan_filter_chain:
+  ros__parameters:
+    filter1:
+      name: body_box
+      type: laser_filters/LaserScanBoxFilter
+      params:
+        box_frame: base_link
+        min_x: -0.17
+        max_x: 0.17
+        min_y: -0.15
+        max_y: 0.15
+        min_z: -0.5
+        max_z: 0.5
+        invert: false

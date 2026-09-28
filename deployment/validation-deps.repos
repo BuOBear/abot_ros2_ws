@@ -1,0 +1,22 @@
+# Temporary local validation overlay only; production uses Humble binary dependencies.
+repositories:
+  geographic_info:
+    type: git
+    url: https://github.com/ros-geographic-info/geographic_info.git
+    version: f70b81a438172cd7a066dc1b18314d70e0eb6389
+  imu_tools:
+    type: git
+    url: https://github.com/CCNYRoboticsLab/imu_tools.git
+    version: 1711f25e8af75231174a725f1023f915bd5c64a3
+  robot_localization:
+    type: git
+    url: https://github.com/cra-ros-pkg/robot_localization.git
+    version: 8696ee5a9e4f959fcaae37835dcf2ed12ead581b
+  ydlidar_ros2_driver:
+    type: git
+    url: https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+    version: 4ef70d3f32a85704ade0be54b214f3763b1ab3e8
+  twist_mux:
+    type: git
+    url: https://github.com/ros-teleop/twist_mux.git
+    version: d929f1b19a437abcf131287b9e3af27fb40ed34e

@@ -1,0 +1,11 @@
+# Image center alignment only; no depth estimate or automatic mode grant.
+vision_follower:
+  ros__parameters:
+    target_class: red
+    detections_topic: /perception/colors
+    kp_yaw: 0.5
+    max_yaw_rate: 0.25
+    center_deadband: 0.05
+    min_bbox_area_px: 500.0
+    camera_info_timeout: 0.5
+    detection_timeout: 0.3

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_bringup</name>
+  <version>0.1.0</version>
+  <description>ABOT ROS 2 device profiles and P0 integration launch.</description>
+  <maintainer email="maintainers@example.com">ABOT maintainers</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>abot_description</exec_depend>
+  <exec_depend>abot_hardware</exec_depend>
+  <exec_depend>abot_navigation</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ydlidar_ros2_driver</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
+  <exec_depend>laser_filters</exec_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>python3-yaml</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

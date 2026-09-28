@@ -1,0 +1,57 @@
+# Three separate 2025 event records confirmed by the user. Field map assets
+# and sketches are recorded independently because event/script assignments are
+# still unknown. This is an inventory, not an executable mission route.
+schema_version: 2
+fields:
+  - id: field_3x3_1
+    nominal_size_label: "3x3"
+    map_package: abot_maps
+    installed_map_yaml: maps/robot_slam/1.yaml
+    installed_map_pgm: maps/robot_slam/1.pgm
+    map_identification: user_confirmed
+    reference_layout: layouts/field_3x3_walls_start.png
+    layout_pairing: inferred_by_elimination
+  - id: field_3x3_shoot
+    nominal_size_label: "3x3"
+    map_package: abot_maps
+    installed_map_yaml: maps/robot_slam/shoot.yaml
+    installed_map_pgm: maps/robot_slam/shoot.pgm
+    map_identification: user_confirmed
+    reference_layout: layouts/field_3x3_targets.png
+    layout_pairing: user_confirmed
+  - id: field_3x1_5
+    nominal_size_label: "3x1.5"
+    map_package: abot_maps
+    installed_map_yaml: null
+    installed_map_pgm: null
+    map_identification: not_located_in_current_abot_ws_snapshot
+    reference_layout: layouts/field_3x1_5_targets.png
+    layout_pairing: user_provided_field_sketch
+events:
+  - id: competition_2025_1
+    year: 2025
+    name: null
+    source_launch: null
+    source_script: null
+    field_id: null
+    installed_map_yaml: null
+    route_file: null
+    assignment: unconfirmed
+  - id: competition_2025_2
+    year: 2025
+    name: null
+    source_launch: null
+    source_script: null
+    field_id: null
+    installed_map_yaml: null
+    route_file: null
+    assignment: unconfirmed
+  - id: competition_2025_3
+    year: 2025
+    name: null
+    source_launch: null
+    source_script: null
+    field_id: null
+    installed_map_yaml: null
+    route_file: null
+    assignment: unconfirmed

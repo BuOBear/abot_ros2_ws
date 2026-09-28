@@ -1,0 +1,15 @@
+# Provisional ROS 1 starting bounds; not validated as a fire classifier.
+fire_detector:
+  ros__parameters:
+    image_topic: /camera/image_raw
+    output_topic: /perception/fire
+    max_processing_hz: 10.0
+    # Preserve the legacy strict gate: contour count > 10 and area > 40 px².
+    min_contours: 10
+    min_total_bbox_area_px: 40.0
+    red_lower: [0, 128, 46]
+    red_upper: [5, 255, 255]
+    red_wrap_lower: [156, 128, 46]
+    red_wrap_upper: [179, 255, 255]
+    yellow_lower: [15, 128, 46]
+    yellow_upper: [50, 255, 255]

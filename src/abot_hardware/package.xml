@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_hardware</name>
+  <version>0.1.0</version>
+  <description>Lifecycle serial base and IMU driver for the abot controller</description>
+  <maintainer email="maintainers@example.com">abot maintainers</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>rclpy</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

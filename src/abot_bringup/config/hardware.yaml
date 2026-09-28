@@ -1,0 +1,18 @@
+# STM32F103VET6 via USB-to-TTL. This legacy port/rate is still a candidate;
+# identify the adapter and verify the flashed firmware, axes and units on bench.
+abot_hardware:
+  ros__parameters:
+    port: /dev/abot
+    baud_rate: 921600
+    command_timeout_ms: 250
+    response_timeout_ms: 100
+    reconnect_delay_ms: 500
+    command_period_ms: 50
+    odom_period_ms: 50
+    imu_period_ms: 20
+    publish_imu: true
+    publish_mag: false
+    # Match the initial P0 velocity chain limits; all remain bench-tuning candidates.
+    max_vx_mps: 0.20
+    max_vy_mps: 0.20
+    max_wz_radps: 1.0

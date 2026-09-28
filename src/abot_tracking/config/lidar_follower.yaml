@@ -1,0 +1,21 @@
+# Conservative provisional values. Linear motion requires an explicit override.
+lidar_follower:
+  ros__parameters:
+    scan_topic: /scan_filtered
+    expected_frame: laser_link
+    scan_timeout: 0.4
+    max_scan_gap: 0.3
+    forward_half_angle: 0.7853981633974483
+    window_beams: 2
+    distance_tolerance: 0.15
+    min_target_distance: 0.35
+    max_target_distance: 2.5
+    target_distance: 1.0
+    distance_deadband: 0.1
+    angle_deadband: 0.05
+    linear_alignment_angle: 0.15
+    kp_linear: 0.6
+    kp_yaw: 0.7
+    max_linear_speed: 0.10
+    max_yaw_rate: 0.25
+    enable_linear_motion: false

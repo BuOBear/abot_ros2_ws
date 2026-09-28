@@ -1,0 +1,91 @@
+velocity_authority:
+  ros__parameters:
+    source_timeout: 0.25
+    # Humble collision_monitor ignores expired sources; explicitly fail closed here.
+    scan_timeout: 0.5
+    # Provisional full-circle lidar coverage. Validate against the actual sensor,
+    # laser extrinsics, body filter and collision zones before physical use.
+    scan_min_beams: 180
+    scan_min_span_degrees: 350.0
+    scan_min_valid_fraction: 0.8
+    scan_max_blind_degrees: 20.0
+    scan_max_range_min: 0.2
+    scan_min_range_max: 1.0
+
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic: /cmd_vel/authorized/nav
+        timeout: 0.30
+        priority: 10
+      tracking:
+        topic: /cmd_vel/authorized/tracking
+        timeout: 0.30
+        priority: 50
+      teleop:
+        topic: /cmd_vel/authorized/teleop
+        timeout: 0.30
+        priority: 100
+      hold:
+        topic: /cmd_vel/authorized/disabled
+        timeout: 0.30
+        priority: 255
+
+velocity_smoother:
+  ros__parameters:
+    smoothing_frequency: 20.0
+    scale_velocities: false
+    feedback: OPEN_LOOP
+    max_velocity: [0.20, 0.20, 1.0]
+    min_velocity: [-0.20, -0.20, -1.0]
+    max_accel: [1.0, 1.0, 2.0]
+    max_decel: [-1.0, -1.0, -2.0]
+    deadband_velocity: [0.0, 0.0, 0.0]
+    velocity_timeout: 0.35
+
+collision_monitor:
+  ros__parameters:
+    base_frame_id: base_footprint
+    odom_frame_id: odom
+    cmd_vel_in_topic: /cmd_vel/smoothed
+    cmd_vel_out_topic: /cmd_vel/collision_checked
+    transform_tolerance: 0.5
+    source_timeout: 0.5
+    base_shift_correction: true
+    stop_pub_timeout: 1.0
+    # Symmetric zones cover side slip and reverse motion. Measure on hardware.
+    polygons: [StopZone, SlowZone]
+    StopZone:
+      type: polygon
+      points: [0.35, 0.33, 0.35, -0.33, -0.35, -0.33, -0.35, 0.33]
+      action_type: stop
+      max_points: 3
+      visualize: true
+      polygon_pub_topic: /collision_monitor/stop_zone
+      enabled: true
+    SlowZone:
+      type: polygon
+      points: [0.65, 0.60, 0.65, -0.60, -0.65, -0.60, -0.65, 0.60]
+      action_type: slowdown
+      max_points: 3
+      slowdown_ratio: 0.3
+      visualize: true
+      polygon_pub_topic: /collision_monitor/slow_zone
+      enabled: true
+    observation_sources: [scan]
+    scan:
+      type: scan
+      topic: /scan_filtered
+      enabled: true
+
+velocity_gate:
+  ros__parameters:
+    input_timeout: 0.2
+    scan_timeout: 0.5
+    scan_min_beams: 180
+    scan_min_span_degrees: 350.0
+    scan_min_valid_fraction: 0.8
+    scan_max_blind_degrees: 20.0
+    scan_max_range_min: 0.2
+    scan_min_range_max: 1.0

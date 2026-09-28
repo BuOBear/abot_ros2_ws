@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_mission</name>
+  <version>0.1.0</version>
+  <description>Explicit Nav2 mission orchestration with goal-bound results and optional fresh visual observations.</description>
+  <maintainer email="maintainer@example.invalid">abot maintainers</maintainer>
+  <license>Apache-2.0</license>
+  <exec_depend>rclpy</exec_depend>
+  <depend>abot_control_interfaces</depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>abot_navigation</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

@@ -1,0 +1,79 @@
+{
+  "candidate_yaml_count": 0,
+  "competition_assignment": null,
+  "competition_assignment_status": "unknown; neither source directories nor map filenames identify a competition assignment",
+  "installed_yaml_count": 2,
+  "map_count": 2,
+  "maps": [
+    {
+      "candidates": [],
+      "canonical": {
+        "image_height": 736,
+        "image_width": 1248,
+        "installed_image": "maps/robot_slam/1.pgm",
+        "installed_image_sha256": "9567a314e7674944e1442b7d62e8bc68a5190002b7a70d5d2d0f88d1413e89e4",
+        "installed_image_source": "/home/manbo_u22/abot_ws/src/robot_slam/maps/1.pgm",
+        "installed_yaml": "maps/robot_slam/1.yaml",
+        "installed_yaml_sha256": "7df493257c856fef8a6751f0e6e9ae29287a54107dfa5726e00bc13b77b84581",
+        "interpretation": "source-compatible"
+      },
+      "source_package": "robot_slam",
+      "source_stem_image": "/home/manbo_u22/abot_ws/src/robot_slam/maps/1.pgm",
+      "source_stem_image_height": 736,
+      "source_stem_image_sha256": "9567a314e7674944e1442b7d62e8bc68a5190002b7a70d5d2d0f88d1413e89e4",
+      "source_stem_image_width": 1248,
+      "source_yaml": "/home/manbo_u22/abot_ws/src/robot_slam/maps/1.yaml",
+      "source_yaml_image_basename": "1.pgm",
+      "source_yaml_image_value": "/home/abot/abot_ws/src/robot_slam/maps/1.pgm",
+      "source_yaml_sha256": "ae91c7cd214c141e35d1045722fdc6fb186f1e0bff2c2da79a61c203a4aa5d37"
+    },
+    {
+      "candidates": [],
+      "canonical": {
+        "image_height": 736,
+        "image_width": 736,
+        "installed_image": "maps/robot_slam/shoot.pgm",
+        "installed_image_sha256": "b3a72bfb816935e15615e3f55e2a7323d24953ddb330b805f1ee961bcfefb877",
+        "installed_image_source": "/home/manbo_u22/abot_ws/src/robot_slam/maps/shoot.pgm",
+        "installed_yaml": "maps/robot_slam/shoot.yaml",
+        "installed_yaml_sha256": "f076cde28d2e7d4f9fceb1b4524db6a163c856044f097f63e7fce9fcd76947a6",
+        "interpretation": "source-compatible"
+      },
+      "source_package": "robot_slam",
+      "source_stem_image": "/home/manbo_u22/abot_ws/src/robot_slam/maps/shoot.pgm",
+      "source_stem_image_height": 736,
+      "source_stem_image_sha256": "b3a72bfb816935e15615e3f55e2a7323d24953ddb330b805f1ee961bcfefb877",
+      "source_stem_image_width": 736,
+      "source_yaml": "/home/manbo_u22/abot_ws/src/robot_slam/maps/shoot.yaml",
+      "source_yaml_image_basename": "shoot.pgm",
+      "source_yaml_image_value": "/home/abot/abot_ws/src/robot_slam/maps/shoot.pgm",
+      "source_yaml_sha256": "e7f7f90ca3a102b000b9d8198c5e3fe9546a6d3ced67e9626ad86614cf2a68cd"
+    }
+  ],
+  "package": "abot_maps",
+  "schema_version": 2,
+  "source_images": [
+    {
+      "height": 736,
+      "installed_image": "maps/robot_slam/1.pgm",
+      "sha256": "9567a314e7674944e1442b7d62e8bc68a5190002b7a70d5d2d0f88d1413e89e4",
+      "source_image": "/home/manbo_u22/abot_ws/src/robot_slam/maps/1.pgm",
+      "source_package": "robot_slam",
+      "width": 1248
+    },
+    {
+      "height": 736,
+      "installed_image": "maps/robot_slam/shoot.pgm",
+      "sha256": "b3a72bfb816935e15615e3f55e2a7323d24953ddb330b805f1ee961bcfefb877",
+      "source_image": "/home/manbo_u22/abot_ws/src/robot_slam/maps/shoot.pgm",
+      "source_package": "robot_slam",
+      "width": 736
+    }
+  ],
+  "source_roots": [
+    "/home/manbo_u22/abot_ws/src/robot_slam/maps",
+    "/home/manbo_u22/abot_ws/src/abot_slam/maps"
+  ],
+  "source_yaml_mismatches": [],
+  "source_status": "Historical provenance only; ROS1 tree intentionally removed by user request after P0 offline acceptance."
+}

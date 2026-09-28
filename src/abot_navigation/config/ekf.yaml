@@ -1,0 +1,23 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.2
+    two_d_mode: true
+    publish_tf: true
+    odom_frame: odom
+    base_link_frame: base_footprint
+    world_frame: odom
+    odom0: /wheel_odom
+    # x, y, z, roll, pitch, yaw, vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az.
+    # Wheel odometry supplies measured body twist; do not double-count its pose.
+    odom0_config: [false, false, false, false, false, false,
+                   true, true, false, false, false, false,
+                   false, false, false]
+    odom0_queue_size: 10
+    imu0: /imu/data
+    # Without validated absolute heading, fuse yaw rate only.
+    imu0_config: [false, false, false, false, false, false,
+                  false, false, false, false, false, true,
+                  false, false, false]
+    imu0_queue_size: 10
+    imu0_remove_gravitational_acceleration: false

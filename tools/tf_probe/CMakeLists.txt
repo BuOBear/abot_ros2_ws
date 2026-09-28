@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(abot_tf_publisher_probe)
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(tf2_msgs REQUIRED)
+add_executable(tf_publisher_probe tf_publisher_probe.cpp)
+ament_target_dependencies(tf_publisher_probe rclcpp tf2_msgs)

@@ -1,0 +1,14 @@
+# Populate from physical wiring and measured collision-free board angle ranges.
+# 6 is the gripper, not a sixth rotary joint. A..F is the proposed wiring;
+# wire accordingly or change it. No measured limits or home pose are assumed.
+# Values below are 24-channel BOARD command units (0..180), not the physical
+# 300-degree travel advertised for the five servos in the user's photo.
+# Confirm board/servo voltage, pinout, signal type and firmware before power-up.
+calibration_verified: false
+actuators:
+  joint_1: {channel: A, min_deg: -1, max_deg: -1}
+  joint_2: {channel: B, min_deg: -1, max_deg: -1}
+  joint_3: {channel: C, min_deg: -1, max_deg: -1}
+  joint_4: {channel: D, min_deg: -1, max_deg: -1}
+  joint_5: {channel: E, min_deg: -1, max_deg: -1}
+  gripper: {channel: F, min_deg: -1, max_deg: -1}

@@ -1,0 +1,28 @@
+name: Humble offline verification
+on: [push, pull_request]
+jobs:
+  p0:
+    runs-on: ubuntu-22.04
+    container: ros:humble-ros-base-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies and pinned YDLIDAR driver
+        shell: bash
+        run: |
+          apt-get update
+          apt-get install -y git cmake python3-colcon-common-extensions python3-rosdep python3-pytest
+          mkdir -p .vendor
+          git clone https://github.com/YDLIDAR/YDLidar-SDK.git .vendor/YDLidar-SDK
+          git -C .vendor/YDLidar-SDK checkout 42a82ed10d2304094c111fc63dee8e4a229b79b7
+          cmake -S .vendor/YDLidar-SDK -B .vendor/YDLidar-SDK/build \
+            -DCMAKE_INSTALL_PREFIX="$PWD/.vendor/ydlidar-sdk-install" \
+            -DBUILD_EXAMPLES=OFF -DBUILD_TEST=OFF -DBUILD_SHARED_LIBS=OFF
+          cmake --build .vendor/YDLidar-SDK/build --parallel 2
+          cmake --install .vendor/YDLidar-SDK/build
+          git clone --branch humble https://github.com/YDLIDAR/ydlidar_ros2_driver.git src/ydlidar_ros2_driver
+          git -C src/ydlidar_ros2_driver checkout 4ef70d3f32a85704ade0be54b214f3763b1ab3e8
+          export CMAKE_PREFIX_PATH="$PWD/.vendor/ydlidar-sdk-install${CMAKE_PREFIX_PATH:+:$CMAKE_PREFIX_PATH}"
+          export LIBRARY_PATH="$PWD/.vendor/ydlidar-sdk-install/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
+          rosdep update --rosdistro humble
+          rosdep install --from-paths src --ignore-src -r -y --rosdistro humble
+          bash tools/verify.sh

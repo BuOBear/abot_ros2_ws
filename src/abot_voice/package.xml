@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_voice</name>
+  <version>0.1.0</version>
+  <description>Offline speech recognition and opt-in local announcements for ABOT ROS 2.</description>
+  <maintainer email="maintainer@example.invalid">abot maintainers</maintainer>
+  <license>Apache-2.0</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

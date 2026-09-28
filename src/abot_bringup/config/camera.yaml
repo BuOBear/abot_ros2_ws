@@ -1,0 +1,15 @@
+# USB OV5640 candidate profile at the legacy calibration's 640x480 resolution.
+# The user selected the old camera calibration for ROS 2. Its installed URL is
+# supplied by sensors.launch.py and may be overridden with camera_info_url.
+# Capture format and CameraInfo still need a device-side check.
+usb_cam:
+  ros__parameters:
+    video_device: /dev/video0
+    framerate: 30.0
+    io_method: mmap
+    frame_id: camera_optical_frame
+    pixel_format: mjpeg2rgb
+    av_device_format: YUV422P
+    image_width: 640
+    image_height: 480
+    camera_name: usb_cam

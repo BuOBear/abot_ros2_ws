@@ -1,0 +1,15 @@
+# Starting HSV ranges adapted from the legacy abot_object_detect color classes.
+# These are not calibrated for the reported OV5640 camera or 148-degree lens.
+color_detector:
+  ros__parameters:
+    image_topic: /camera/image_raw
+    min_area_px: 500.0
+    max_processing_hz: 10.0
+    red_lower: [0, 112, 41]
+    red_upper: [15, 255, 255]
+    red_wrap_lower: [170, 112, 41]
+    red_wrap_upper: [179, 255, 255]
+    yellow_lower: [20, 100, 100]
+    yellow_upper: [34, 255, 255]
+    green_lower: [35, 78, 71]
+    green_upper: [85, 255, 255]

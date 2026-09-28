@@ -1,0 +1,688 @@
+{
+  "source_directory": "src/abot_find/shoot_object2025",
+  "selection_rule": "all top-level PNG files are preserved; canonical positive decimal basenames are selectable templates at this namespace root, while all other PNG names are retained under auxiliary/ outside template lookup",
+  "asset_count": 86,
+  "numeric_template_count": 77,
+  "auxiliary_asset_count": 9,
+  "assets": [
+    {
+      "asset_type": "numeric_template",
+      "id": "1",
+      "filename": "1.png",
+      "installed_path": "1.png",
+      "size_bytes": 21612,
+      "sha256": "44716efc7e6e19a540a63b6ab2e08bede19c03f9d482b09b3eff5c6ad33490e6"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "2",
+      "filename": "2.png",
+      "installed_path": "2.png",
+      "size_bytes": 30665,
+      "sha256": "a5c23064590cf7170ab06a50124049d8d97520b7fea8d86ffa7490ce1a33092f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "3",
+      "filename": "3.png",
+      "installed_path": "3.png",
+      "size_bytes": 44572,
+      "sha256": "fcb3ba7e0a361df21cf0fd8e64983abb0228f7ffc3a07b4379d2a42bd31d0d52"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "4",
+      "filename": "4.png",
+      "installed_path": "4.png",
+      "size_bytes": 11253,
+      "sha256": "6a7f3cdae51a14dd60aa3f256b74b2d62cfeeac16d1dafe90374c856f97df7d2"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "5",
+      "filename": "5.png",
+      "installed_path": "5.png",
+      "size_bytes": 12529,
+      "sha256": "8eaea2d44edddc45c026a966aefdf4fbf9580301eb6036599e8240ed0a77253a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "6",
+      "filename": "6.png",
+      "installed_path": "6.png",
+      "size_bytes": 16530,
+      "sha256": "5aa8b2c468c5cc89d0d2782e1a17b65117d6542617aa51ea6ed44a5d3e88de04"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "7",
+      "filename": "7.png",
+      "installed_path": "7.png",
+      "size_bytes": 15716,
+      "sha256": "573c3cd3d74b5befa946a6648d6b4971bdd80a121e05ed3e0919f8752967f635"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "8",
+      "filename": "8.png",
+      "installed_path": "8.png",
+      "size_bytes": 13656,
+      "sha256": "ddedebb3a3d90dd84b3b870c922a580b48c1db53b9443daf8e7a9ab4e631b418"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "9",
+      "filename": "9.png",
+      "installed_path": "9.png",
+      "size_bytes": 54420,
+      "sha256": "70f5ddd5557f78b07f5322ec13674cb56cc927aabc388742d1edeffde8930c2e"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "16",
+      "filename": "16.png",
+      "installed_path": "16.png",
+      "size_bytes": 15574,
+      "sha256": "322419617ffaa9632b542e8403d28a1d577e77df0076930a7b5eb78fe4493b3a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "17",
+      "filename": "17.png",
+      "installed_path": "17.png",
+      "size_bytes": 10580,
+      "sha256": "9ef7d5ba4648cd39dca0c08c879ed8aa62e57d47d477e3e849a1b3683003fe8d"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "18",
+      "filename": "18.png",
+      "installed_path": "18.png",
+      "size_bytes": 9971,
+      "sha256": "86e635188e286d977170e6dbed8551a01b291328f8f11908746fe11cfdb77260"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "19",
+      "filename": "19.png",
+      "installed_path": "19.png",
+      "size_bytes": 31418,
+      "sha256": "af43330f231d6af5f452860e40b37f30bc039946b8c16bdbccc2c9c00a03fff7"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "20",
+      "filename": "20.png",
+      "installed_path": "20.png",
+      "size_bytes": 29707,
+      "sha256": "02eb5a31cabdabb701dc2d30802f89b2124831ecbba8dd39e8a3b83c0fee9c05"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "21",
+      "filename": "21.png",
+      "installed_path": "21.png",
+      "size_bytes": 22828,
+      "sha256": "18c37df10eb8f8c80a577d83eb7945e1b08cfd5a12884ebfa8452435d3fa3e72"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "22",
+      "filename": "22.png",
+      "installed_path": "22.png",
+      "size_bytes": 6366,
+      "sha256": "58010d708f5dc6706ce3314556b2d6910afa0c6d9e33d60b81ee519f4898bdaf"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "23",
+      "filename": "23.png",
+      "installed_path": "23.png",
+      "size_bytes": 6051,
+      "sha256": "2a031380cd8ce5d993b390d2f910e298a2b000ca407f8785207f751cb25d19e4"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "24",
+      "filename": "24.png",
+      "installed_path": "24.png",
+      "size_bytes": 6368,
+      "sha256": "bb89b2bd555625819c87bffbfd7e76f6159df57f5351b7fb3c54cc9cfaced038"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "25",
+      "filename": "25.png",
+      "installed_path": "25.png",
+      "size_bytes": 15687,
+      "sha256": "03a76ab9d2021a50977ae9b9f1ff479e6c3f1867c23d657237cff3664306cf84"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "26",
+      "filename": "26.png",
+      "installed_path": "26.png",
+      "size_bytes": 7660,
+      "sha256": "0a4c0b5c60eea67910344b673fd906d5a4a328f5c65599bf5e7a2668a0311d30"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "27",
+      "filename": "27.png",
+      "installed_path": "27.png",
+      "size_bytes": 25131,
+      "sha256": "344dfeae0bf1035e75300493f64c29d23d638dbe680e3bd2fe68a2afaaf93207"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "28",
+      "filename": "28.png",
+      "installed_path": "28.png",
+      "size_bytes": 31002,
+      "sha256": "68561e81178bed6b33aee867a433578ad35b738c5a0883284542a796e9cfd2b8"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "29",
+      "filename": "29.png",
+      "installed_path": "29.png",
+      "size_bytes": 27094,
+      "sha256": "0adbfd724d0eb5a1520ace5df798197d3089430e1d6ab2501b7649e1c4cc147c"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "30",
+      "filename": "30.png",
+      "installed_path": "30.png",
+      "size_bytes": 31881,
+      "sha256": "336de040ef01768b19c6e219887de6113d9b18d21392ba28b038dc6979ec2af4"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "32",
+      "filename": "32.png",
+      "installed_path": "32.png",
+      "size_bytes": 11009,
+      "sha256": "9187a7fc3581ae1aa5f3a3501b077d9d43eea9706ac075e68cb7b6aa1e597fee"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "33",
+      "filename": "33.png",
+      "installed_path": "33.png",
+      "size_bytes": 5430,
+      "sha256": "5c4b9b2d25f9eb30ecd8255a3892f9779b48d9289282cb1698c3c827c1db2b8d"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "34",
+      "filename": "34.png",
+      "installed_path": "34.png",
+      "size_bytes": 45697,
+      "sha256": "8a3ae379ba45722554887e7ff3cf570473ecc790884e6deb784c5fd84e834d4a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "35",
+      "filename": "35.png",
+      "installed_path": "35.png",
+      "size_bytes": 32000,
+      "sha256": "942cf7cef1a36490945845a0c49df36b8e2ddd4bffbd46b4dd353ac68397b042"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "36",
+      "filename": "36.png",
+      "installed_path": "36.png",
+      "size_bytes": 16219,
+      "sha256": "ff46c9768c3729ce9f2efc699da288a0f1745e95e75b911536f64fd30eb91252"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "37",
+      "filename": "37.png",
+      "installed_path": "37.png",
+      "size_bytes": 20349,
+      "sha256": "ca1f99894e6e2b8797737df58356ac1dbd97111bfa5e51ea2f01f13a106b5d0c"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "46",
+      "filename": "46.png",
+      "installed_path": "46.png",
+      "size_bytes": 17449,
+      "sha256": "8d54ed20ea965fd61fd8bd472a21d29f557687404d3c13adc9e104cc2594392a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "47",
+      "filename": "47.png",
+      "installed_path": "47.png",
+      "size_bytes": 17364,
+      "sha256": "870c528c68b446f1eeb42b00ddc14b82471f0f041d0efeb2820092036757621f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "48",
+      "filename": "48.png",
+      "installed_path": "48.png",
+      "size_bytes": 38590,
+      "sha256": "c9fff794fcf3f70c8af7ebd69fc01448df78e03fe4cb69c4721d388a82b6955f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "49",
+      "filename": "49.png",
+      "installed_path": "49.png",
+      "size_bytes": 23279,
+      "sha256": "b69cc4c108dde11aaebfb8fba3124d5b9eb174519ba48ed0e171b8b5a2aa5d67"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "50",
+      "filename": "50.png",
+      "installed_path": "50.png",
+      "size_bytes": 22727,
+      "sha256": "b961a4b78c3c4c99941470502020d499d047f3ea31cb24f8bc520adda6b01eb3"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "51",
+      "filename": "51.png",
+      "installed_path": "51.png",
+      "size_bytes": 14982,
+      "sha256": "cac4acd48ee1e4957337358e6293425297b01092e7e0ee5572298e43e0e1e52e"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "52",
+      "filename": "52.png",
+      "installed_path": "52.png",
+      "size_bytes": 20365,
+      "sha256": "71dc5a2cfa216ef53a286e2546b9dba37d007f383b201f673806c2c110408d1c"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "53",
+      "filename": "53.png",
+      "installed_path": "53.png",
+      "size_bytes": 14612,
+      "sha256": "2cd4c88ae9e01ee67be1c471ecccd9fdbf3aef57353e3435291445d215de22fc"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "54",
+      "filename": "54.png",
+      "installed_path": "54.png",
+      "size_bytes": 15939,
+      "sha256": "b97c91663fbcfba7a880bee8faf184f84b84d8c8a5ebd4160be71debe404707a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "55",
+      "filename": "55.png",
+      "installed_path": "55.png",
+      "size_bytes": 11343,
+      "sha256": "24a1d615875965d505d4a819b45e795d43e5d7dbfccbf6ba01a5e6e2d15999b1"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "56",
+      "filename": "56.png",
+      "installed_path": "56.png",
+      "size_bytes": 10516,
+      "sha256": "80a2395d8a77b359b698c65873dbc2c6b17b533ff9974139bfa0e04985e07aab"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "57",
+      "filename": "57.png",
+      "installed_path": "57.png",
+      "size_bytes": 17173,
+      "sha256": "9d86a80d00edc80f2ed029346649b1d3e9526bc143cb44285be22f8c4d2755a9"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "58",
+      "filename": "58.png",
+      "installed_path": "58.png",
+      "size_bytes": 70207,
+      "sha256": "675f5d0857ac2d7edc5ed818236d4601b95d8b8c4536647b376576e28acf3f59"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "59",
+      "filename": "59.png",
+      "installed_path": "59.png",
+      "size_bytes": 32781,
+      "sha256": "e2d8ee1b0296aa8ca646eb8e232f1f1e46c63fb548c2ef5ceef99a8e0291b451"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "60",
+      "filename": "60.png",
+      "installed_path": "60.png",
+      "size_bytes": 15654,
+      "sha256": "5a7be47e9475b17fbfa7820ebe0b6a1044f78218b954a9f84089959535b66a43"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "61",
+      "filename": "61.png",
+      "installed_path": "61.png",
+      "size_bytes": 17690,
+      "sha256": "c1a12065042cfebfe1ee38bf80422a04834055cce55056264afc9b3573dd3b7f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "62",
+      "filename": "62.png",
+      "installed_path": "62.png",
+      "size_bytes": 22956,
+      "sha256": "ca40fc301d605e4b2749246be3147094205cab9466956f7f4766ec4e8c4e5176"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "63",
+      "filename": "63.png",
+      "installed_path": "63.png",
+      "size_bytes": 36577,
+      "sha256": "00b55ee46b06aa3ccfe256405b424cfb341130f17e09b75ae8de14ef16cb3f95"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "64",
+      "filename": "64.png",
+      "installed_path": "64.png",
+      "size_bytes": 13067,
+      "sha256": "a6a3599343c96f10ee1e531699d7d923f131371bc30050ef2c01ac342eef2cb5"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "65",
+      "filename": "65.png",
+      "installed_path": "65.png",
+      "size_bytes": 13005,
+      "sha256": "12de4d8368be6d917076defe9c344df248c70e2779ff360e75bab6def056cca9"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "66",
+      "filename": "66.png",
+      "installed_path": "66.png",
+      "size_bytes": 17551,
+      "sha256": "1faf0241e7f0457664fed19fbda1f66d34de042403e694e07af8cac71a2e2bd8"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "67",
+      "filename": "67.png",
+      "installed_path": "67.png",
+      "size_bytes": 10231,
+      "sha256": "79165be8222c574bf626c5ee84693cd89e05bf7d26657cdc36ade3a0f5c46008"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "68",
+      "filename": "68.png",
+      "installed_path": "68.png",
+      "size_bytes": 12621,
+      "sha256": "b7dc1aa46773b8c6fe9faa5c1bf6e5c833f2cae761c0334312ef9148cd7952f6"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "69",
+      "filename": "69.png",
+      "installed_path": "69.png",
+      "size_bytes": 12482,
+      "sha256": "50d647c72e61bc5fd7994ccf4ed4c2b8d2bfe9278611054f39ec0df51dfd1d8f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "76",
+      "filename": "76.png",
+      "installed_path": "76.png",
+      "size_bytes": 18239,
+      "sha256": "8a986ea67f68bd783d26ee6b2a6835d4df39d5645966283edda6fbaf94b613be"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "77",
+      "filename": "77.png",
+      "installed_path": "77.png",
+      "size_bytes": 35629,
+      "sha256": "8ac5d23ab13ab20e3c6657b50b84884f9a9daa2f87524f771f4dffe8fe25f966"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "78",
+      "filename": "78.png",
+      "installed_path": "78.png",
+      "size_bytes": 18053,
+      "sha256": "db51df9ce6758542108fc8662960ee50910734d97703e9080573ebd112da4688"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "79",
+      "filename": "79.png",
+      "installed_path": "79.png",
+      "size_bytes": 13857,
+      "sha256": "61ad93c4eb6741cf48b381f2b58d65973742f132d2cf81fc68fbba4c57c48cc2"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "80",
+      "filename": "80.png",
+      "installed_path": "80.png",
+      "size_bytes": 14093,
+      "sha256": "7021f62558bf8c3e601b4d2072a6dc8079cdec5787f5628f1beba6afa5da6e0f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "81",
+      "filename": "81.png",
+      "installed_path": "81.png",
+      "size_bytes": 22584,
+      "sha256": "85f70572a1befcab7c057c264124a8c81f2d9d97d19ca08c38700dafadba1e73"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "91",
+      "filename": "91.png",
+      "installed_path": "91.png",
+      "size_bytes": 18805,
+      "sha256": "a2092229c21388a142188f7cebefc6bb5c6ebad6039d24081f3fe08518856e5c"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "92",
+      "filename": "92.png",
+      "installed_path": "92.png",
+      "size_bytes": 39104,
+      "sha256": "2b2a52f440a79d9b61679bdcb3aa65abeb11d8786db37521bb27aef07cd1ced7"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "93",
+      "filename": "93.png",
+      "installed_path": "93.png",
+      "size_bytes": 14817,
+      "sha256": "4f6fba199b591edca2d16e9d6990b03fd607579418273cc8962c21e8cc9598e0"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "94",
+      "filename": "94.png",
+      "installed_path": "94.png",
+      "size_bytes": 30024,
+      "sha256": "195ee2827ddb31ee581fb73b674cdcdd9075f66a70076b9215c9fd2c24e1894f"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "95",
+      "filename": "95.png",
+      "installed_path": "95.png",
+      "size_bytes": 13013,
+      "sha256": "88c06ebe84bcb823bd0d327e24a2e36b06432b873b81ec07fbf3b50aa852be8c"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "97",
+      "filename": "97.png",
+      "installed_path": "97.png",
+      "size_bytes": 15396,
+      "sha256": "7edd1de78fc8673911d9c3931ccf4d675936748e0047a44e0ebc90d92fd4f9d7"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "98",
+      "filename": "98.png",
+      "installed_path": "98.png",
+      "size_bytes": 14134,
+      "sha256": "eb3e64d2ace097b85305a19abec029ecc2d32ff3bcb87daad837d82e6b724ff4"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "106",
+      "filename": "106.png",
+      "installed_path": "106.png",
+      "size_bytes": 29349,
+      "sha256": "f0691e5961a9e4bad32a91877c0c899da314b72c05bfc7ba87ead30885b9b8bd"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "107",
+      "filename": "107.png",
+      "installed_path": "107.png",
+      "size_bytes": 19898,
+      "sha256": "afe8b302b351917dd406bebebc37ee0cb00e44eb7232bb01cbedf0fe13b6dc24"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "108",
+      "filename": "108.png",
+      "installed_path": "108.png",
+      "size_bytes": 31576,
+      "sha256": "f86b0a75f84fbc506a7d69aebec41f1b7f511017afc3fef2616561415640b628"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "109",
+      "filename": "109.png",
+      "installed_path": "109.png",
+      "size_bytes": 17577,
+      "sha256": "5263fdb3f638021a27a78a0b814495ae5d5b309169486a9398127199d6740d78"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "110",
+      "filename": "110.png",
+      "installed_path": "110.png",
+      "size_bytes": 22023,
+      "sha256": "5579a9638cdc308d92f510c7cacaecb8650ed0f2f3c36f75d014ff8f5ae37c4a"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "111",
+      "filename": "111.png",
+      "installed_path": "111.png",
+      "size_bytes": 14420,
+      "sha256": "72d3153e204952fb7b7ddc605dcc21995f9cf15704d443a583507bf184f795bd"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "112",
+      "filename": "112.png",
+      "installed_path": "112.png",
+      "size_bytes": 17475,
+      "sha256": "20d42e52f4f8cd2522fd879ca6c3140a11816daf5434b51fe000bd156d2481d0"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "113",
+      "filename": "113.png",
+      "installed_path": "113.png",
+      "size_bytes": 6634,
+      "sha256": "84c28564f0b5d21baf1d588e9b851602a894fc33bd86f4a88503c91ff96b1657"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "114",
+      "filename": "114.png",
+      "installed_path": "114.png",
+      "size_bytes": 16505,
+      "sha256": "f306b6f0bc2810d0960a3ff3d2f4b2e484b57d14b36b4ebfb51293295cb321d6"
+    },
+    {
+      "asset_type": "numeric_template",
+      "id": "115",
+      "filename": "115.png",
+      "installed_path": "115.png",
+      "size_bytes": 58558,
+      "sha256": "4a7c3683be42832434dc96d7a42dd876b161867ed0ca696a7a461968e2d15f4d"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": ".png",
+      "installed_path": "auxiliary/.png",
+      "size_bytes": 4403,
+      "sha256": "365b3e6e56e2b528b1f598dcd4bb11f1cc033bb802b076f7b434cf66cedf9aca"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_1.png",
+      "installed_path": "auxiliary/MarkerData_1.png",
+      "size_bytes": 1857,
+      "sha256": "47eae3f80ed077f02d502b7a03a5cf3ee1083aaa29423f79318a5e22e31529d2"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_2.png",
+      "installed_path": "auxiliary/MarkerData_2.png",
+      "size_bytes": 1946,
+      "sha256": "ee5ddc7dc95464c1379169e60bcd511fb9c24b2dcdd585c6d3feb06b85392d4a"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_3.png",
+      "installed_path": "auxiliary/MarkerData_3.png",
+      "size_bytes": 1862,
+      "sha256": "4b5afc2473697fdab8ccdb6377b7d3c67adb5511571c241deeb747ec73125524"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_4.png",
+      "installed_path": "auxiliary/MarkerData_4.png",
+      "size_bytes": 1761,
+      "sha256": "2861c7ed54326abd2f3678dc0368dbb5d794cd0b4a8571e61cb9bd68905a8d89"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_5.png",
+      "installed_path": "auxiliary/MarkerData_5.png",
+      "size_bytes": 1857,
+      "sha256": "2f4f83e72cb4d7687acab35f65fc0b9166314434dedab47ce7da1abd32368b21"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_6.png",
+      "installed_path": "auxiliary/MarkerData_6.png",
+      "size_bytes": 1767,
+      "sha256": "b1a88f5a79f2b3d7ffc44a716b02e5d21915e8bd69ac7a8db0bc808511d22abd"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_7.png",
+      "installed_path": "auxiliary/MarkerData_7.png",
+      "size_bytes": 1862,
+      "sha256": "fb0853795dc75acef9c258a7d283a3142f41729261e11799bd743cb7d786372a"
+    },
+    {
+      "asset_type": "auxiliary",
+      "filename": "MarkerData_8.png",
+      "installed_path": "auxiliary/MarkerData_8.png",
+      "size_bytes": 1862,
+      "sha256": "a9e986d778747be04e5bdde7a581c4ec6a29f2e3686514ead44bb86374a21c21"
+    }
+  ]
+}

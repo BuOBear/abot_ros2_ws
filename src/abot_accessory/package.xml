@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>abot_accessory</name>
+  <version>0.1.0</version>
+  <description>Explicit ROS 2 service interface for the legacy shooting accessory</description>
+  <maintainer email="maintainers@example.com">abot maintainers</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>rclpy</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

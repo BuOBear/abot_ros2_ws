@@ -1,0 +1,8 @@
+# Names: joint_1 through joint_5, gripper. Board degrees, NOT URDF joint angles.
+string actuator
+uint16 board_angle_deg
+---
+# True means all six bytes were written to the serial port only.
+# There is no verified board ACK or measured position in this protocol.
+bool sent_unverified
+string message
