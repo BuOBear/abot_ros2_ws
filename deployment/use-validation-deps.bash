@@ -17,3 +17,4 @@ export CMAKE_PREFIX_PATH="$_abot_validation_root/sdk-install${CMAKE_PREFIX_PATH:
 export LIBRARY_PATH="$_abot_validation_root/sdk-install/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
 export LD_LIBRARY_PATH="$_abot_validation_root/system/usr/lib/x86_64-linux-gnu${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 unset _abot_validation_root
+
