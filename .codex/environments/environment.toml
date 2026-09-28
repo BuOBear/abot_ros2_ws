@@ -1,0 +1,25 @@
+version = 1
+name = "ABOT ROS 2 Humble"
+
+[setup]
+script = "bash tools/codex-environment.sh check"
+
+[[actions]]
+name = "检查 ROS2 环境"
+icon = "test"
+command = "bash tools/codex-environment.sh check"
+
+[[actions]]
+name = "构建工作区"
+icon = "tool"
+command = "bash tools/codex-environment.sh build"
+
+[[actions]]
+name = "完整离线验证"
+icon = "test"
+command = "bash tools/codex-environment.sh verify"
+
+[[actions]]
+name = "地图校验"
+icon = "test"
+command = "bash tools/codex-environment.sh maps"
