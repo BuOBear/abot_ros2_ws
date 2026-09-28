@@ -1,5 +1,22 @@
 # 部署前置条件
 
+## Codex 项目环境
+
+项目环境文件为 `.codex/environments/environment.toml`，操作入口为 `tools/codex-environment.sh`。在 Codex 中打开此 Linux/WSL 项目后，可使用“检查 ROS2 环境”“构建工作区”“完整离线验证”和“地图校验”操作。新工作树的 setup 执行依赖检查，缺依赖时给出错误；按本文安装依赖后重试。它不自动安装系统包或开启设备。
+
+每个操作独立加载 Humble，存在时复用本工作区的 `.validation/deps` 和 Cyclone 叠加层，并识别 `.vendor/ydlidar-sdk-install`。新工作树不会自动复制原工作区中被 Git 忽略的依赖，需按本文恢复或在目标主机安装。初始化过程中的 `source` 不会持久改变后续终端，因此操作通过同一脚本重新加载环境。
+
+```bash
+bash tools/codex-environment.sh check
+bash tools/codex-environment.sh build
+bash tools/codex-environment.sh verify
+bash tools/codex-environment.sh maps
+```
+
+这些入口仅用于本机离线开发，设置 `ROS_LOCALHOST_ONLY=1`，默认 ROS 域为 166。并发验证须使用不同且空闲的域，例如 `ROS_DOMAIN_ID=167 bash tools/codex-environment.sh verify`。`verify` 调用现有 `tools/verify.sh`，不包含完整 P0 双次严格集成；该验收另见 [验证说明](VALIDATION.md)。真机和多机通信按后续部署步骤操作。
+
+## 目标主机依赖
+
 目标环境为 Ubuntu 22.04 / ROS 2 Humble、系统 Python 3.10。原 ABOT ROS1 源码树已按用户要求删除，catkin ROS1 源码也已移除。不要在此工作区环境中同时加载 catkin/Conda，只构建本工作区的 `src`。
 
 在已启用 ROS apt 软件源的目标主机上执行：
