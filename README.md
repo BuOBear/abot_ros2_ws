@@ -38,3 +38,5 @@ ros2 launch jy_real_robot real.launch.py
 地图仅保留 `robot_slam/1` 与 `robot_slam/shoot` 两组 PGM/YAML；三张场地示意图只供参考。三场 2025 年比赛尚未分配地图、脚本和路线，任务不会自动执行。
 
 源码位于 `src/`，维护文档位于 `docs/`，部署配置位于 `deployment/`，验证工具位于 `tools/`；本地构建和测试证据位于 `build/`、`install/`、`log/`、`.validation/`。
+
+Codex 项目配置位于 [.codex/config.toml](.codex/config.toml)，开发约定见 [AGENTS.md](AGENTS.md)。在 Codex 中信任并重新打开本项目后加载项目配置；模型与权限沿用当前用户设置。
