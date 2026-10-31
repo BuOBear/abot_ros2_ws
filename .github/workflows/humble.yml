@@ -1,5 +1,8 @@
 name: Humble offline verification
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 jobs:
   p0:
     runs-on: ubuntu-22.04
