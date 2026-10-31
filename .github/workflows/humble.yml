@@ -4,6 +4,9 @@ jobs:
   p0:
     runs-on: ubuntu-22.04
     container: ros:humble-ros-base-jammy
+    env:
+      ROS_DOMAIN_ID: '42'
+      ROS_LOCALHOST_ONLY: '1'
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies and pinned YDLIDAR driver
